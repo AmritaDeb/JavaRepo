@@ -1,0 +1,21 @@
+package practice;
+
+public class InterfaceTest {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+interface Automation{
+	static final double version = 4.0;
+	void performance();
+}
+
+class Katalon implements Automation {
+
+	public void performance() {
+		System.out.println("Moderate");
+	}
+	
+}

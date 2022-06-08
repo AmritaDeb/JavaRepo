@@ -1,0 +1,31 @@
+package practice;
+
+public class EncapsulationTest {
+
+	public static void main(String[] args) {
+
+	}
+}
+
+class Encappsulation{
+	
+	int id;
+	String name;
+	String role;
+	
+	Encappsulation(){
+		
+	}
+	
+	Encappsulation(int id, String name, String role){
+		this.id = id;
+		this.name = name;
+		this.role = role;
+	}
+	
+	void test() {
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(role);
+	}
+}

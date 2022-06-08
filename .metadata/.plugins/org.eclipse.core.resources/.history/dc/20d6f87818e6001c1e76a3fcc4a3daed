@@ -1,0 +1,32 @@
+package practice;
+
+public class EncapsulationTest {
+
+	public static void main(String[] args) {
+		UserLogin e = new UserLogin(5,"Am","QA") ;
+		e.test();
+	}
+}
+
+class UserLogin{
+	
+	private int id;
+	private String name;
+	private String role;
+	
+	UserLogin(){
+		
+	}
+	
+	UserLogin(int id, String name, String role){
+		this.id = id;
+		this.name = name;
+		this.role = role;
+	}
+	
+	public void test() {
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(role);
+	}
+}

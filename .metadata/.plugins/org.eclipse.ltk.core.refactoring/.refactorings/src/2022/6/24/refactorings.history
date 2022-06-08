@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;practice.Encapsulation&apos; to &apos;EncapsulationTest&apos;&#x0D;&#x0A;- Original project: &apos;src&apos;&#x0D;&#x0A;- Original element: &apos;practice.Encapsulation&apos;&#x0D;&#x0A;- Renamed element: &apos;practice.EncapsulationTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Encapsulation&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/&lt;practice{Encapsulation.java[Encapsulation" matchStrategy="1" name="EncapsulationTest" qualified="false" references="true" similarDeclarations="false" stamp="1654574556257" textual="false" version="1.0"/>
+</session>

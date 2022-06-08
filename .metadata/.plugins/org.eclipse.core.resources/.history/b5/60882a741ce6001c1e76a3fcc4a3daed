@@ -1,0 +1,26 @@
+package practice;
+
+public class InterfaceTest {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+interface WebAutomation{
+	static final double version = 4.0;
+	void performance();
+}
+
+interface APIAutomation{
+	static final double version = 5.0;
+	void performance();
+}
+
+class Katalon implements WebAutomation, APIAutomation{
+
+	public void performance() {
+		System.out.println("Moderate");
+	}
+	
+}

@@ -1,0 +1,16 @@
+package practice;
+
+public class AbstractionTest {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+abstract class AutomationT{
+	abstract void domain();
+	void test() {
+		System.out.println("concrete");
+	}
+	
+}

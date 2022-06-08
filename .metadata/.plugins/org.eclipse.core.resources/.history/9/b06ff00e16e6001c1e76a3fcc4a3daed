@@ -1,0 +1,23 @@
+package practice;
+
+public class Encapsulation {
+
+	int i;
+	
+	void test(){
+		System.out.println("hello");
+	}
+
+	Encapsulation() {
+
+	}
+
+	Encapsulation(int i) {
+		this.i = i;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

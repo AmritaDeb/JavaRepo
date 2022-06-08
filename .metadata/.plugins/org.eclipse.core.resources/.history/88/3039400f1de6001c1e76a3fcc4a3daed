@@ -1,0 +1,24 @@
+package practice;
+
+public class InheritenceTest {
+
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Automation{
+	
+}
+
+class ResAssured extends Automation{
+	
+}
+
+class Selenium extends Automation{
+	
+}
+
+class jmeter extends Automation{
+	
+}

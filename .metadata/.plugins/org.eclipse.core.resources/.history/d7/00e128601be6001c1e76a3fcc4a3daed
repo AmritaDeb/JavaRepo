@@ -1,0 +1,19 @@
+package practice;
+
+public class InheritenceTest {
+
+	public static void main(String[] args) {
+		Son s = new Son();
+		s.job();
+	}
+}
+
+class Father{
+	void job() {
+		System.out.println("Job Accuried");
+	}
+}
+
+class Son extends Father{
+	
+}

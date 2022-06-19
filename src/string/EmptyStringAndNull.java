@@ -15,6 +15,6 @@ public class EmptyStringAndNull {
 		System.out.println(s1); 			// output will be empty
 		System.out.println(s1.length());	// 0
 		System.out.println(s2);				// output will be null
-		System.out.println(s2.length());	// NullPointerException
+		//System.out.println(s2.length());	// NullPointerException
 	}
 }

@@ -41,6 +41,17 @@ public class Boxing{
 		System.out.println(s);
 		//String s2 = ch;						// auto-boxing is not allowed
 		
+		// intToString
+		int in = 253;
+		String string = String.valueOf(in);
+		System.out.println(string);
+		System.out.println(string.getClass());
+		
+		Integer resultInt = Integer.parseInt(string);
+		System.out.println(resultInt);
+		System.out.println(resultInt.getClass());
+		
+		
 	}
 
 }

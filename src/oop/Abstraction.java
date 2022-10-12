@@ -9,7 +9,10 @@ package oop;
  * abstract class can have -
  * 1. only abstract method
  * 2. only concrete methods
- * 3. both abstract and concrete methods */
+ * 3. both abstract and concrete methods 
+ * 
+ * An Abstract class is a partial abstraction
+ * An Interface is a full abstraction*/
 
 public class Abstraction {
 

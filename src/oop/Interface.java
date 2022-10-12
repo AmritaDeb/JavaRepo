@@ -4,6 +4,8 @@ package oop;
  * data members are by default static and final
  * 
  * we can achieve interface by using 'implements' keyword
+ * 
+ * An Interface is a full abstraction
  * */
 
 public class Interface {

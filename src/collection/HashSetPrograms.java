@@ -1,7 +1,10 @@
 package collection;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 /* HashSet is a concrete class of Set interface,
  * Rules:
@@ -41,6 +44,20 @@ public class HashSetPrograms {
 		while (i2.hasNext()) {
 			System.out.println(i2.next());
 		}
+		
+		System.out.println("~~~~~~~~");
+		Set<String> set = new HashSet<>();
+		set.add("A");
+		set.add("B");
+		set.add("C");
+		
+		Iterator<String> iter = set.iterator();
+		List<String> list = new ArrayList<>();
+		
+		while(iter.hasNext()) {
+			System.out.println(iter.next());
+		}
+		
 
 	}
 

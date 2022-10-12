@@ -14,7 +14,7 @@ public class Polymorphism {
 		dog.speak(2);							// Method overloading
 		System.out.println(dog.tail);
 		
-		AnimalClass dogAnimal = new AnimalClass();			// upcasting
+		AnimalClass dogAnimal = new DogClass();			// upcasting
 		dogAnimal.speak();
 		
 	}
